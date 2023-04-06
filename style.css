@@ -1,0 +1,42 @@
+ /* Add some CSS to make the form and map look beautiful */
+ body {
+    margin: 0;
+    padding: 0;
+  }
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  input[type="submit"]:hover {
+    background: #2E8B57;
+  }
